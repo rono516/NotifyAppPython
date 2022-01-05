@@ -18,7 +18,7 @@ def get_details():
     # print(get_title,get_msg, tt)
 
     if get_title == "" or get_msg == "" or get_time == "":
-        messagebox.showerror("Alert", "All fields are required!")
+        messagebox.showerror("Alert", "All fields are required to set notification!")
     else:
         int_time = int(float(get_time))
         min_to_sec = int_time * 60
